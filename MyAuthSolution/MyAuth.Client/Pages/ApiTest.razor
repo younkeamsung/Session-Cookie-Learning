@@ -1,0 +1,191 @@
+﻿@page "/api-test"
+@using MyAuth.Client.Services
+@using System.Net.Http
+@using Microsoft.AspNetCore.Components.Authorization
+@inject ApiStatusService ApiStatus
+@inject NavigationManager Navigation
+
+<PageTitle>API 연결 테스트</PageTitle>
+
+<h1>API 연결 테스트</h1>
+
+@if (_loading)
+{
+    <p>서버에 연결하는 중...</p>
+}
+else if(_error is not null)
+{
+    <p class="text-danger">오류: @_error</p>
+    <button @onclick="LoadStatus">다시 시도</button>
+}
+else if(_status is not null)
+{
+    <p>상태: @_status.Status</p>
+    <p>메시지: @_status.Message</p>
+}
+
+<hr />
+
+<h2>MVC 로그인 상태</h2>
+
+@if (_authLoading)
+{
+    <p>로그인 상태 확인 중...</p>
+}
+else if(_authError is not null)
+{
+    <p class="text-danger">@_authError</p>
+    <button @onclick="LoadAuthStatus">다시 확인</button>
+}
+else if(_authStatus?.IsAuthenticated == true)
+{
+    <p>로그인 상태: 로그인됨</p>
+    <p>사용자 이름: @_authStatus.UserName</p>
+    <p>사용자 ID: @_authStatus.UserId</p>
+    <p>역할: @_authStatus.Role</p>
+    <button @onclick="LoadAuthStatus">
+        로그인 상태 다시 확인
+    </button>
+
+}
+else
+{
+    <p>로그인 상태: 로그인되지 않음</p>
+    <button @onclick="GoToLogin">MVC 로그인 페이지로 이동</button>
+}
+
+
+
+
+<hr />
+
+<h2>Blazor 인증 상태 테스트</h2>
+
+<AuthorizeView>
+    <Authorized Context="auth">
+        <p>Blazor 인증 상태: 로그인됨</p>
+        <p>사용자 이름: @auth.User.Identity?.Name</p>
+        <p>역할: @auth.User.FindFirst(
+            System.Security.Claims.ClaimTypes.Role)?.Value</p>
+    </Authorized>
+
+    <NotAuthorized>
+        <p>Blazor 인증 상태: 로그인되지 않음</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+<button @onclick="RefreshBlazorAuth">
+    Blazor 인증 상태 새로고침
+</button>
+
+
+<button @onclick="LogoutFromMvc">
+    로그아웃
+</button>
+
+@if (_logoutError is not null)
+{
+    <p class="text-danger">@_logoutError</p>
+}
+
+@code {
+    private ApiStatusResponse? _status;
+    private string? _error;
+    private bool _loading = true;
+
+    private AuthStatusResponse? _authStatus;
+    private String? _authError;
+    private bool _authLoading = true;
+
+    private string? _logoutError;
+
+    [Inject]
+    private ApiAuthenticationStateProvider AuthProvider { get; set; } = default!;
+
+    private async Task RefreshBlazorAuth()
+    {
+        await AuthProvider.RefreshAsync();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadStatus();
+    }
+
+    private async Task LoadStatus()
+    {
+        _loading = true;
+        _error = null;
+
+        try
+        {
+            _status = await ApiStatus.GetStatusAsync();
+
+            if (_status is null)
+            {
+                _error = "서버에서 응답을 받지 못했습니다.";
+            }
+        }
+
+        catch (HttpRequestException ex)
+        {
+            _error = $"서버 연결에 실패했습니다: {ex.Message}";
+        }
+        finally
+        {
+            _loading = false;
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadAuthStatus();
+        }
+    }
+
+    private async Task LoadAuthStatus()
+    {
+        _authLoading = true;
+        _authError = null;
+
+        try
+        {
+            _authStatus = await ApiStatus.GetAuthStatusAsync();
+        }
+        catch(HttpRequestException ex)
+        {
+            _authError = $"인증 API 호출 실패: {ex.Message}";
+        }
+        finally
+        {
+            _authLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private void GoToLogin()
+    {
+        Navigation.NavigateTo("https://localhost:7150/Account/Login");
+    }
+
+    private async Task LogoutFromMvc()
+    {
+        _logoutError = null;
+
+        try
+        {
+            await ApiStatus.LogoutAsync();
+
+            if (AuthProvider is not null)
+            {
+                await AuthProvider.RefreshAsync();
+            }
+        }
+        catch (Exception ex)
+        {
+            _logoutError = $"로그아웃 실패: {ex.Message}";
+        }
+    }
+}

@@ -1,0 +1,12 @@
+﻿@page "/protected"
+@attribute [Microsoft.AspNetCore.Authorization.Authorize]
+
+<PageTitle>로그인 필요</PageTitle>
+
+<h1>보호된 페이지</h1>
+
+<p>이 페이지는 로그인한 사용자만 볼 수 있어.</p>
+
+@code {
+
+}

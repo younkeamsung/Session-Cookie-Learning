@@ -1,0 +1,47 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using MyAuth.Client.Services
+@inject NavigationManager Navigation
+@inject ApiAuthenticationStateProvider AuthProvider
+
+@if (AuthProvider.LastError is not null)
+{
+    <div class="alert alert-warning" role="alert">
+        <p>@AuthProvider.LastError</p>
+        <button class="btn btn-outline-secondary" @onclick="Retry">
+            다시 확인
+        </button>
+    </div>
+}
+else
+{
+    <p>로그인 페이지로 이동하는 중...</p>
+}
+
+@code {
+    protected override void OnInitialized()
+    {
+        if(AuthProvider.LastError is null)
+        {
+            var currentPath = Navigation.ToBaseRelativePath(
+                Navigation.Uri);
+
+            var returnUrl = Uri.EscapeDataString("/" + currentPath);
+
+            Navigation.NavigateTo(
+                $"https://localhost:7150/Account/Login?returnUrl={returnUrl}",
+                forceLoad: true);
+        }
+    }
+
+    private async Task Retry()
+    {
+        await AuthProvider.RefreshAsync();
+
+        if(AuthProvider.LastError is null)
+        {
+            Navigation.NavigateTo(
+                Navigation.Uri,
+                forceLoad: true);
+        }
+    }
+}

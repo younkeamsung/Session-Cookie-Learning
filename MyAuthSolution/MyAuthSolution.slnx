@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MyAuth.Client/MyAuth.Client.csproj" Id="d17b7ab6-eb26-4046-9d48-893c9c421164" />
+  <Project Path="MyAuth.Mvc/MyAuth.Mvc.csproj" />
+</Solution>

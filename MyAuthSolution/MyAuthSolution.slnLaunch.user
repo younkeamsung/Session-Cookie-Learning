@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "새 프로필",
+    "Projects": [
+      {
+        "Path": "MyAuth.Mvc\\MyAuth.Mvc.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MyAuth.Client\\MyAuth.Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

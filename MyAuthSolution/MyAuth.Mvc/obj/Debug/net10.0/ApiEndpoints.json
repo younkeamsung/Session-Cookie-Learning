@@ -1,0 +1,52 @@
+[
+  {
+    "ContainingType": "MyAuth.Mvc.Controllers.Api.AuthController",
+    "Method": "Admin",
+    "RelativePath": "api/Auth/admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyAuth.Mvc.Controllers.Api.AuthController",
+    "Method": "GetAntiforgeryToken",
+    "RelativePath": "api/Auth/antiforgery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyAuth.Mvc.Controllers.Api.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyAuth.Mvc.Controllers.Api.AuthController",
+    "Method": "Me",
+    "RelativePath": "api/Auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyAuth.Mvc.Controllers.Api.StatusController",
+    "Method": "Get",
+    "RelativePath": "api/Status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SecureBlazorApp\\MyAuthSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|solutionrelative:myauth.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|solutionrelative:myauth.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.client\\services\\apistatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|solutionrelative:myauth.client\\services\\apistatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.mvc\\controllers\\api\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|solutionrelative:myauth.mvc\\controllers\\api\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.mvc\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|solutionrelative:myauth.mvc\\controllers\\api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.mvc\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|solutionrelative:myauth.mvc\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.client\\services\\apiauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|solutionrelative:myauth.client\\services\\apiauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.client\\pages\\apitest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|solutionrelative:myauth.client\\pages\\apitest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.client\\pages\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|solutionrelative:myauth.client\\pages\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|solutionrelative:myauth.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.client\\pages\\protected.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|solutionrelative:myauth.client\\pages\\protected.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D17B7AB6-EB26-4046-9D48-893C9C421164}|MyAuth.Client\\MyAuth.Client.csproj|solutionrelative:myauth.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|d:\\secureblazorapp\\myauthsolution\\myauth.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{738D9020-6EB2-7BD2-2D4F-1289AA655C0D}|MyAuth.Mvc\\MyAuth.Mvc.csproj|solutionrelative:myauth.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "MyAuth.Mvc\\Models\\AppUser.cs",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Models\\AppUser.cs",
+              "RelativeToolTip": "MyAuth.Mvc\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T07:34:28.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyAuth.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyAuth.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAYwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-19T09:25:32.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RedirectToLogin.razor",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Pages\\RedirectToLogin.razor",
+              "RelativeDocumentMoniker": "MyAuth.Client\\Pages\\RedirectToLogin.razor",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Pages\\RedirectToLogin.razor",
+              "RelativeToolTip": "MyAuth.Client\\Pages\\RedirectToLogin.razor",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-19T09:09:27.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\App.razor",
+              "RelativeDocumentMoniker": "MyAuth.Client\\App.razor",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\App.razor",
+              "RelativeToolTip": "MyAuth.Client\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-19T09:06:33.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Protected.razor",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Pages\\Protected.razor",
+              "RelativeDocumentMoniker": "MyAuth.Client\\Pages\\Protected.razor",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Pages\\Protected.razor",
+              "RelativeToolTip": "MyAuth.Client\\Pages\\Protected.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-19T09:05:40.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Program.cs",
+              "RelativeDocumentMoniker": "MyAuth.Client\\Program.cs",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Program.cs",
+              "RelativeToolTip": "MyAuth.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T08:49:44.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiAuthenticationStateProvider.cs",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Services\\ApiAuthenticationStateProvider.cs",
+              "RelativeDocumentMoniker": "MyAuth.Client\\Services\\ApiAuthenticationStateProvider.cs",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Services\\ApiAuthenticationStateProvider.cs",
+              "RelativeToolTip": "MyAuth.Client\\Services\\ApiAuthenticationStateProvider.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T08:17:43.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Program.cs",
+              "RelativeDocumentMoniker": "MyAuth.Mvc\\Program.cs",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Program.cs",
+              "RelativeToolTip": "MyAuth.Mvc\\Program.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T07:41:49.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MyAuth.Mvc\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MyAuth.Mvc\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAowO4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T07:39:19.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Controllers\\Api\\AuthController.cs",
+              "RelativeDocumentMoniker": "MyAuth.Mvc\\Controllers\\Api\\AuthController.cs",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Controllers\\Api\\AuthController.cs",
+              "RelativeToolTip": "MyAuth.Mvc\\Controllers\\Api\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T06:57:51.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiTest.razor",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Pages\\ApiTest.razor",
+              "RelativeDocumentMoniker": "MyAuth.Client\\Pages\\ApiTest.razor",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Pages\\ApiTest.razor",
+              "RelativeToolTip": "MyAuth.Client\\Pages\\ApiTest.razor",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-19T06:48:07.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiStatusService.cs",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Services\\ApiStatusService.cs",
+              "RelativeDocumentMoniker": "MyAuth.Client\\Services\\ApiStatusService.cs",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Client\\Services\\ApiStatusService.cs",
+              "RelativeToolTip": "MyAuth.Client\\Services\\ApiStatusService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAA1wFcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T06:36:14.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatusController.cs",
+              "DocumentMoniker": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Controllers\\Api\\StatusController.cs",
+              "RelativeDocumentMoniker": "MyAuth.Mvc\\Controllers\\Api\\StatusController.cs",
+              "ToolTip": "D:\\SecureBlazorApp\\MyAuthSolution\\MyAuth.Mvc\\Controllers\\Api\\StatusController.cs",
+              "RelativeToolTip": "MyAuth.Mvc\\Controllers\\Api\\StatusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T06:31:19.668Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
